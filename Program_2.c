@@ -14,6 +14,32 @@
 
 int main()
 {
+  int N;
+  int arrA[10];
+  int arrB[10];
+  int i;
+  printf("enter the value of N\n");
+  
+  scanf("%d",&N);
+
+  printf("enter the arrA elements");
+  for(i=0;i<N;i++)
+  {
+  scanf("%d",&arrA[i]);
+  }
+
+  printf("The array elements of 1st array:\n") ;
+  for(i=0;i<N;i++)
+  {
+  printf("%d\n",arrA[i]);
+  }
+  printf("Tha array elements of 2nd array:\n");  
+    for(i=0;i<N;i++)
+  {
+    arrB[i]=arrA[i];
+    printf("%d\n",arrB[i]);
+  }
+  
    //Declare all the variables[N, array a & array b, i] used in the code
    //Read the Value of N using scanf statement
    //Read the array elements using for loop and scanf statment
